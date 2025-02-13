@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2 style="color: whitesmoke; text-align: center; background-color: sienna;padding: 7px;"> WELCOME KURINJI SUPER MARKET</h2>
+        <h3 style="color: crimson;text-align: center;padding:7px;">LOGIN..!</h3>
+
+    <form>
+        <div class="input-group">
+            <input type="text" id="name" placeholder="Enter your name" required>
+        </div>
+        <div class="input-group">
+            <input type="text"  id="number" placeholder="Enter your Phone Number" required>
+        </div>
+        <div class="input-group">
+            <select id="items" required >
+                <option>Select Items</option>
+                <option value="sugar">sugar</option>
+                <option value="oil">oil</option>
+                <option value="rice">rice</option>
+                <option value="vegetables">vegetables</option>
+                <option value="spices">spices</option>
+            </select>
+        </div>
+        <div class="input-group">
+            <input type="text"  id="quantity" placeholder="Number Of Quantity" required>
+        </div>
+
+        <div class="input-group">
+            <input type="text"  id="Gst" placeholder="Enter Gst" required>
+        </div>
+        <button type="submit" onclick="register()" >SUBMIT</button>
+
+        <h3 style="color:blue;padding: 15px;">Order Summary</h3>
+        <div class="input-group" id="tables">
+            <table>
+                <tr>
+                    <th>username</th>
+                    <th>Mobile Number</th>
+                    <th>Item</th>
+                    <th>Quantity</th>
+                    <th>Total (with Gst)</th>
+                </tr>
+            </table>
+
+        </div>
+    </div>
+
+     
+
+
+    </form>
+<script src="./js/login.js"></script>
+</body>
+</html>

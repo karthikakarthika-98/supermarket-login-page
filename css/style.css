@@ -1,0 +1,109 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/—Pngtree—supermarket\ checkout\ cashier\ counter\ blurred_15628010.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.form-container {
+    background-color: bisque;
+    width: 90%;
+    max-width: 450px;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+.input-group {
+    padding: 10px;
+    text-align: center;
+}
+
+button {
+    background-color: chartreuse;
+    color: black;
+    text-align: center;
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Ensure table container has a background */
+.input-group table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white; /* Ensures visibility */
+}
+
+.input-group table th {
+    background-color: #d3d3d3;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+    font-size: 16px;
+    text-align: center;
+}
+#items{
+    width: 170px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .form-container {
+        width: 75%;
+        margin-top: 50px;
+        padding: 15px;
+        height: 55vh;
+    }
+
+    .input-group {
+        padding: 5px;
+    }
+
+    button {
+        width: 100%;
+        margin-left: 0;
+    }
+    .input-group table th {
+        background-color: #d3d3d3;
+        color: black;
+        padding: 5px;
+        border: 1px solid black;
+        font-size: 10px;
+        text-align: center;
+    }
+    body img{
+        background-image: url(../img/—Pngtree—supermarket\ checkout\ cashier\ counter\ blurred_15628010.png);
+        overflow: hidden; /* Prevents scrolling */
+        position: fixed;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        /* margin-bottom: 300px;
+        margin-top: -50px; */
+    }
+    #items{
+        width: 170px;
+    }
+}
+
+
