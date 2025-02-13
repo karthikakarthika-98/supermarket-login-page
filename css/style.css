@@ -87,9 +87,9 @@ button {
     .input-group table th {
         background-color: #d3d3d3;
         color: black;
-        padding: 5px;
+        padding: 3px;
         border: 1px solid black;
-        font-size: 10px;
+        font-size: 8px;
         text-align: center;
     }
     body img{
@@ -102,7 +102,7 @@ button {
         margin-top: -50px; */
     }
     #items{
-        width: 160px;
+        width: 140px;
     }
 }
 
