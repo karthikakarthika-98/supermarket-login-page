@@ -73,7 +73,7 @@ button {
         width: 75%;
         margin-top: 50px;
         padding: 15px;
-        height: 55vh;
+        height: auto;
     }
 
     .input-group {
@@ -102,7 +102,7 @@ button {
         margin-top: -50px; */
     }
     #items{
-        width: 170px;
+        width: 160px;
     }
 }
 
